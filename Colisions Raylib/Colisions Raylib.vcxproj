@@ -164,11 +164,13 @@ user32.lib;</AdditionalDependencies>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Dino.cpp" />
+    <ClCompile Include="Fons.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Obstacles.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dino.hpp" />
+    <ClInclude Include="Fons.hpp" />
     <ClInclude Include="Obstacles.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
