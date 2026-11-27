@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Colisions Raylib/Colisions Raylib.vcxproj" Id="dee7f54f-60ce-4622-ad6c-105046284e61" />
+</Solution>
