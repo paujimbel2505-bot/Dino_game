@@ -22,9 +22,9 @@ Texture2D Dino::Carrega(const char* path, Color color)
 	}
 
 	ImageColorReplace(&img, color, BLANK); //Buidem el blanc de la imatge.
-	m_skin = LoadTextureFromImage(img); //Pasem la imatge neta a texture 2D
+	m_skin = LoadTextureFromImage(img); //Pasem la imatge neta a texture 2D.
 	UnloadImage(img); //Descarreguem la imatge.
-	SetTextureFilter(m_skin, TEXTURE_FILTER_POINT); //Filtre per deixa millor els pixels
+	SetTextureFilter(m_skin, TEXTURE_FILTER_POINT); //Filtre per deixa millor els pixels.
 	return m_skin;
 }
 void Dino::Draw(const char* path, Color color)
